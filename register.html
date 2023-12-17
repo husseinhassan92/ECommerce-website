@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/register.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <div id="profile">
+        <h1>Registration</h1>
+    </div>
+    <div id="rbox">
+        <form id="rform">
+            <input type="hidden" id="user_id" name="User ID">
+            <div id="req">
+                <label for="First name">First name:</label>
+                <input tabindex="1" type="text" id="First_name" name="First name" required>
+                <br>
+                <br>
+                <label for="Last Name">Last Name:</label>
+                <input tabindex="2" type="text" id="last_name" name="Last Name" required>
+                <br>
+                <br>
+                <label for="Email">Email :</label>
+                <input tabindex="3" type="email" id="Email" name="Email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                <br>
+                <br>
+                <label for="Password ">Password:</label>
+                <input tabindex="3" type="password" id="Password" name="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                <br>
+                <br>
+                <label for="Repeat  Password ">Repeat Password:</label>
+                <input tabindex="4" type="password" id="Repeat  Password" name="Repeat  Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            </div>
+            <br>
+            
+            <input tabindex="14" type="checkbox" value="checkbox">I agreed to terms and condition
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="./static/js/register.js" type="module"></script>
+</body>
+</html>
