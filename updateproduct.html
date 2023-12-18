@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/register.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <div id="rbox">
+        <form id="productform">
+            <input type="hidden" id="product_id" name="product_id">
+            <div id="req">
+                <label for="name">name:</label>
+                <br>
+                <input tabindex="1" type="text" id="name" name="name" required>
+                <br>
+                <br>
+                <label for="category">category:</label>
+                <br>
+                <select id="category" name="category">
+                </select>
+                <br>
+                <br>
+                <label for="price">price:</label>
+                <br>
+                <input tabindex="2" type="number" id="price" name="price" required>
+                <br>
+                <br>
+                <label for="description">description:</label>
+                <br>
+                <textarea  tabindex="13" id="description" name="description" rows="4" cols="40"></textarea>
+                <br>
+                <br>
+                <label for="stockQuantity">stockQuantity:</label>
+                <br>
+                <input tabindex="4" type="number" id="stockQuantity" name="stockQuantity" required>
+                <br>
+                <br>
+                <label for="image">image:</label>
+                <input tabindex="6" type="file" id="image" name="image" required>
+                <br>
+                <br>
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="./static/js/updateproduct.js" type="module"></script>
+</body>
+</html>

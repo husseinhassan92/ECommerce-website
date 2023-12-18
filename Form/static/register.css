@@ -1,0 +1,25 @@
+#req ::after{
+    content: "*";
+}
+
+input:invalid{
+    border: solid;
+}
+
+input:valid{
+    border: white;
+}
+
+#arrow{
+    float: right;
+    height: 50px;
+    
+}
+
+input:invalid + #notvaild{
+    border: solid;
+}
+
+input:valid + #notvaild{
+    display: none;
+}

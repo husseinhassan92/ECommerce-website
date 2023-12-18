@@ -1,0 +1,129 @@
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+  
+
+.column.side {
+    width: 25%;
+    background-color: red;
+}
+  
+
+.column.middle {
+    width: 50%;
+    background-color: blue;
+}
+  
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+#loginbox{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid black;
+}
+
+#mysoical{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 200px;
+}
+
+#video{
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid black;
+}
+
+#photo{
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 200px;
+}
+
+#news{
+    border-top: 1px solid black;
+    width: 100%;
+    height: 400px; 
+}
+
+#profile{
+    text-align: center;
+}
+
+#personal{
+    width: 50%;
+    margin-right: 0;
+    padding: 5px;
+    text-align: left;
+
+
+}
+
+#image{
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 60px;
+
+}
+
+#fb{
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+}
+
+#twitter{
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    background: #021130;
+    color: white;
+}
+

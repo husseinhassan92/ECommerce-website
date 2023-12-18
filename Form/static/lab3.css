@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+p, div, span{
+    font-family: 'Lucida Handwriting Std', sans-serif;
+                                                
+}
+
+div>h1{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    width: 100%;
+    background-color: red;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+span#linksbar{
+    width: 25%;
+    background-color: gray;
+    float: left;
+}
+span#content{
+    width: 75%;
+    background-color: pink;
+    float: left;
+}
+
+.none-bullet-list{
+    list-style-type: none;
+}
+
+li>a#linksbar{
+    color: red;
+    background-color: pink;
+    text-decoration: none;
+}
+
+li>span#linksbar:hover{
+    color: pink;
+    background-color: red;
+}
+
+span>h2+p#content{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+div#loginform{
+    border: dashed 2px rgb(20,70,60);
+}
+
+input[type="text"]{
+    background-color: yellow;
+}
+
+input:focus{
+    background-color: white
+}
+
+.tabled-bordered{
+    display: table-cell;
+    padding: 5px;
+    border: solid;
+}
+
+span>p::after{
+    content: "Read this";
+    color: yellow;
+}
+
+span#content>p#aboutus{
+    color: yellow;
+}
+
+p#aboutus{
+    color: red  !important;
+}
+
+#navbar{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    list-style-type: none;
+    background-color: rgb(20,70,60);
+    display: inline-block;
+    height: 35px;
+    margin: 0px;
+}
+
+#navitem{
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: wheat;
+    height: 35px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+#navitem:hover{
+    background-color: beige;
+    color: blue;
+    text-decoration: none;
+}
