@@ -6,6 +6,7 @@ regform.addEventListener('submit', (event) => {
   event.preventDefault();
   const first_name = document.getElementById('First_name').value;
   const last_name = document.getElementById('last_name').value;
+  const phone = document.getElementById('phone').value;
   const email = document.getElementById('Email').value;
   const password = document.getElementById('Password').value;
   const user = userfun(email);
@@ -29,7 +30,7 @@ regform.addEventListener('submit', (event) => {
       if (current_customer) {
         alert('Email already exists!');
       } else {
-        const customer = new Customer(first_name, last_name, email, password);
+        const customer = new Customer(first_name, last_name, email, phone, password);
         console.log(customer);
         customers.push(customer);
         localStorage.setItem('customers', JSON.stringify(customers));
